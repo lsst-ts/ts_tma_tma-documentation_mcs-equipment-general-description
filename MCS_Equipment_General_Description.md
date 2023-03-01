@@ -212,7 +212,7 @@ This module adds fieldbus protocols, memory and data logging to the RMC.
 
 For the MCC a Simatic IPC847D industrial computer is used, with the following characteristics:
 
-![Industrial PC](resources/999c6a4615b40f223d4278da543f1a98.emf)
+![Industrial PC](resources/999c6a4615b40f223d4278da543f1a98.png)
 
 | **General Data**                         |                           |
 |------------------------------------------|---------------------------|
