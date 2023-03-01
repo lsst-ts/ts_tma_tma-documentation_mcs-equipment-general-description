@@ -286,6 +286,39 @@ supplies as well as hot-swappable, front-accessible, redundant cooling fans.
 | Safety                                              | **IEC 61010-1, EN 61010-1** **UL 61010-1, CSA 61010-1**                            |
 | EMC | **EN 61326-1 (IEC 61326-1): Class A emissions;**  **EN 55011 (CISPR 11): Group 1, Class A emissions** **AS/NZS CISPR 11: Group 1, Class A emissions** **FCC 47 CFR Part 15B: Class A emissions** **ICES-001: Class A emissions** |
 
+#### Chassis: NI PXIe-1071
+
+The NI PXIe-1071 combines a 4-slot PXI Express backplane with a structural design optimized for maximum usability in a
+wide range of applications.
+
+![PXIe-1071](resources/PXI_1071.jpg)
+
+##### NI PXIe-1071 Technical details
+
+| **Chassis Cooling**            |                                      |
+|--------------------------------|--------------------------------------|
+| Per slot cooling capacity      | 38.25 W                              |
+| Module cooling system          | Forced air circulation (positive pressurization) through a 150 CFM fan with High/Auto speed selector|
+| Slot airflow direction         | Bottom of module to top of module    |
+| Module cooling intake          | Bottom of chassis                    |
+| Module cooling exhaust         | Right side, rear, and top of chassis |
+| Power supply cooling system    | Forced air circulation through integrated fan |
+| Power supply cooling intake    | Front and left side of chassis       |
+| Power supply cooling exhaust   | Rear of chassis                      |
+| **Environmental**              |   |
+| Maximum altitude               | 2,000 m (800 mbar) (at 25 °C ambient)|
+| Measurement Category           | II                                   |
+| Pollution Degree               | 2                                    |
+| For indoor use only            |                                      |
+| **Operating Environment**      |  |
+| Ambient temperature range      | 0 to 50 °C (Tested in accordance with IEC-60068-2-1 and IEC-60068-2-2. Meets MIL-PRF-28800F Class 3 low temperature limit and MIL-PRF-28800F Class 2 high temperature limit.)|
+| Relative humidity range        | 20 to 80%, non-condensing (Tested in accordance with IEC-60068-2-56.)
+| **Shock and Vibration**        |  |
+|Operational shock               | 30 g peak, half-sine, 11 ms pulse (Tested in accordance with IEC-60068-2-27. Meets MIL-PRF-28800F Class 2 limits.)|
+| Random Vibration               |  |
+| Operating                      | 5 to 500 Hz, 0.3 g_rms|
+| Non-operating                   | 5 to 500 Hz, 2.4 g_rms (Tested in accordance with IEC-60068-2-64. Non-operating test profile exceeds the requirements of MIL-PRF-28800F, Class 3.)|
+
 #### CPU: NI PXIe-8880
 
 High-performance Intel Xeon E5-2618L v3 processor-based embedded controller for use in PXI Express systems. With the
@@ -377,6 +410,47 @@ Based on the Intel 82572EI gigabit controller.
 | **Standards and Certifications**              |                                                     |
 | Safety                                        | **IIEC 60950-1, EN 60950-01**  **UL 60950-1, CSA 60950-1** |
 | EMC                                           | **EN 61326 EMC requirements; Minimum Immunity** **EN 55011 Emissions; Group 1, Class A** **CE, C-Tick, ICES, and FCC Part 15 Emissions; Class A** |
+
+#### Beckhoff Industrial PC C5210-0040
+
+The C5xxx Industrial PCs series is designed for 19-inch slide-in installation. They are equipped with maximum performance
+class components and are ideally suited for machine construction and plant engineering applications, for example with
+the TwinCAT automation software.
+
+>In the MCS this device is not using TwinCAT, instead it's running the same Linux RT software that the NI PXIs.
+
+![Beckhoff c5210-0040](resources/Beckhoff_c5210_0000.jpg)
+
+##### Beckhoff c5210-0040 Technical details
+
+| Technical data            | C5210-0040                                                            | Options             |
+|---------------------------|-----------------------------------------------------------------------|---------------------|
+| Device type               | 19-inch slide-in Industrial PC                                        |                     |
+| Housing                   | stainless steel based housing, 1 high units, with lockable front flap |                     |
+| Front flap                | lockable, includes 2 x USB 2.0, reset key and ATX key|DVD drive       |                     |
+| Slots for hard disk/flash | 2 removable frames for hard disks                                     | removable frames for SSDs |
+| Protection rating         | IP20                                                                  |                     |
+| Operating temperature     | 0…55 °C                                                               |                     |
+| Dimensions (W x H x D)    | 482.7 x 44 x 493.8 mm (19" x 1.7" x 19.44"), depth behind front 475 mm (18.7")                              |   |
+| Processor                 | Intel® Celeron® G4900 3.1 GHz, 2 cores (TC3: 50)                      | up to Intel® Core™ i7-9700TE 1.8 GHz, 8 cores (TC3: 80) |
+| Motherboard               | 3½-inch motherboard for 8th/9th generation Intel® Celeron®, Pentium®, Core™ i3/i5/i7                        |   |
+| PCIe/PCI slots            | 2 PCIe module slots to plug-in Beckhoff PCIe modules or to led out interfaces of the motherboard ex factory |   |
+| Interfaces                | 4 x USB 3.1 Gen. 1, 1 x RS232 at the rear, 2 x USB 2.0 behind the front flap, 1 x DVI                       |   |
+| Memory                    | 4 GB DDR4 RAM                                                         | up to 64 GB DDR4 RAM|
+| Graphic adapter           | integrated in the processor                                           |                     |
+| Ethernet                  | 2 x 100/1000BASE-T on-board                                           |                     |
+| RAID                      | on-board SATA RAID 1 controller                                       |                     |
+| Hard disks/flash          | hard disk, 3½-inch, 1 TB                                              | hard disk up to 4 TB, SSD|
+| Disk drive                | –                                                                     | multi DVD           |
+| Power supply              | 100…240 V AC                                                          | 24 V DC, UPS        |
+| Operating system          | –                                                                     | Windows 10 IoT Enterprise, Windows Server 2019 |
+
+##### MCS specific configuration (C5210-0040 / 000236301)
+
+| Technical data            | C5210-0040 / 000236301                                                       |
+|---------------------------|------------------------------------------------------------------------------|
+| Hard disks/flash          | solid-state disk SSD, 3D flash, 2½-inch, 240 GB,instead of 3½-inch hard disk |
+| Processor                 | processor 9th generation Intel® Core™ i7-9700TE, 1.8 GHz, 8 cores (TC3:80), instead of Intel® Celeron® G4900 3.1 GHz (TC3:50) |
 
 ### cRIO System
 
@@ -837,7 +911,7 @@ integrated sensor supply (including bus base module and connectors)
 
 ![Phoenix contact AXLF AI4 I 1H](resources/ae75bab8475614996b41c938008d623f.png)
 
-##### Phoenix contact AXLF AI4 I 1HTechnical details
+##### Phoenix contact AXLF AI4 I 1H Technical details
 
 | **Dimensions**                            |                                |
 |-------------------------------------------|--------------------------------------------------------------------------------|
@@ -916,6 +990,28 @@ integrated sensor supply (including bus base module and connectors)
 ||Continuous shock according to EN 60068-2-27/IEC 60068-2-27 10g|
 
 ### Drives
+
+#### Controller: Bosch-Rexroth IndraMotion MLC L75
+
+IndraMotion MLC is the first truly complete automation system. It combines motion control, robot control and logic
+control to create a uniform complete system for any control task in almost any industry.
+
+![MLC L75](resources/MLC_L75.jpeg)
+
+##### IndraMotion MLC L75 Technical details
+
+| Platform                        | L75           |
+|---------------------------------|---------------|
+| Drive interface                 | Sercos III    |
+| Max. axis number                | 64            |
+| Cycle time                      | 0.5/0.25 ms   |
+| Max. number of function modules | 4             |
+| Onboard IO                      | 8I/8O         |
+| C2C                             | FM Sercos III |
+| Ethernet/IP Scanner/Adapter     | YES/YES       |
+| PROFINET IO Contr./Device       | YES/YES       |
+| PROFIBUS Master/Slave           | YES/YES       |
+| Robot Control                   | YES           |
 
 #### Drive: Bosch-Rexroth IndraDrive Cs
 
