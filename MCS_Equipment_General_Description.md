@@ -2,7 +2,7 @@
 
 | **Requested by:**           | **Empresarios Agrupados** |
 |-----------------------------|---------------------------|
-| **Doc. Code / Version nº:** | 3151_MCS_0004             |
+| **Doc. Code:**              | 3151_MCS_0004             |
 | **Editor:**                 | AO, PLG                   |
 | **Approved by:**            |                           |
 
