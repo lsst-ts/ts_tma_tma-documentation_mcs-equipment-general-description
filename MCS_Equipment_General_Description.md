@@ -1,4 +1,4 @@
-# MCS EQUIPMENT GENERAL DESCRIPTION
+# MCS Equipment General Description
 
 | **Requested by:**           | **Empresarios Agrupados** |
 |-----------------------------|---------------------------|
