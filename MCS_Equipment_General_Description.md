@@ -1,4 +1,4 @@
-# MCS Equipment General Description
+# MCS Equipment General Description (Hardware)
 
 | **Requested by:**           | **Empresarios Agrupados** |
 |-----------------------------|---------------------------|
