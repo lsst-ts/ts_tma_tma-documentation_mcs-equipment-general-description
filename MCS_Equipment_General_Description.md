@@ -454,20 +454,20 @@ the TwinCAT automation software.
 
 ### cRIO System
 
-#### EtherCat expansion chassis: NI 9144
+#### EtherCat expansion chassis: NI 9145
 
-The NI 9144 is an 8-slot rugged EtherCAT slave chassis for adding deterministic, distributed I/O to NI EtherCAT master
+The NI 9145 is an 8-slot rugged EtherCAT slave chassis for adding deterministic, distributed I/O to NI EtherCAT master
 controllers. With standard CAT 5 Ethernet cabling, it communicates deterministically with any NI CompactRIO, real-time
-PXI, or real-time industrial controller that has two Ethernet ports. You can daisy chain multiple NI 9144 slave chassis
+PXI, or real-time industrial controller that has two Ethernet ports. You can daisy chain multiple NI 9145 slave chassis
 from the master controller to expand time-critical applications to high-channel counts while maintaining hard determinism
 with minimal processor resources.
   
 It also has a 2M gate Xilinx Spartan field-programmable gate array (FPGA), giving high-speed and customizable I/O timing,
 inline processing, and closed-loop control.
 
-![NI 9144 eCAT expansion chassis](resources/df447f35de6cb130244f3c21575055dc.png)
+![NI 9145 eCAT expansion chassis](resources/df447f35de6cb130244f3c21575055dc.png)
 
-##### NI 9144 Technical details
+##### NI 9145 Technical details
 
 | **General Data**                              |                                      |
 |-----------------------------------------------|--------------------------------------|
